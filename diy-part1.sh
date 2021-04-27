@@ -13,10 +13,10 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-rm -rf package/lean/luci-theme-edge
-rm -rf package/lean/openwrt-paasswall
-git clone https://github.com/xiaorouji/openwrt-passwall.git/package/openwrt-paasswall
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/my-packages
+#rm -rf package/lean/luci-theme-edge
+#rm -rf package/lean/openwrt-paasswall
+#git clone https://github.com/xiaorouji/openwrt-passwall.git/package/openwrt-paasswall
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/my-packages
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/fatelpc/luci-theme-fate.git package/luci-theme-fate
